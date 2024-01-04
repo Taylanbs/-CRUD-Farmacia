@@ -1,0 +1,5 @@
+package com.taylan.farmacia.controller;
+
+public class ProdutoController {
+
+}
