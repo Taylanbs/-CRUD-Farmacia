@@ -1,0 +1,5 @@
+package com.taylan.farmacia.model;
+
+public class Categoria {
+
+}
