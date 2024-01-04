@@ -93,3 +93,36 @@ END
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 12:06:25.358
 !MESSAGE Classpath changed for project: farmacia
+
+!ENTRY org.eclipse.jface 2 0 2024-01-04 12:47:19.849
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-01-04 12:47:19.849
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 12:47:43.021
+!MESSAGE Classpath changed for project: farmacia
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 12:48:40.234
+!MESSAGE Classpath changed for project: farmacia
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 12:49:02.637
+!MESSAGE Classpath changed for project: farmacia
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 12:49:12.643
+!MESSAGE Classpath changed for project: farmacia
